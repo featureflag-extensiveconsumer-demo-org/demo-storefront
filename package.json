@@ -1,0 +1,12 @@
+{
+  "name": "demo-storefront",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "evaluate": "node app.mjs",
+    "traffic": "node app.mjs --traffic"
+  },
+  "dependencies": {
+    "@launchdarkly/node-server-sdk": "^9.0.0"
+  }
+}
